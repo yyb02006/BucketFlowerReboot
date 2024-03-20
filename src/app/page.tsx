@@ -1,16 +1,7 @@
-import React from 'react'
-import stylex from '@stylexjs/stylex'
+'use client'
 
-const styles = stylex.create({
-  base: {
-    fontSize: '4rem',
-    color: 'red',
-  },
-  highlighted: {
-    color: 'rebeccapurple',
-  },
-})
+import React from 'react'
 
 export default function Page() {
-  return <div {...stylex.props(styles.base)}>Hello NextJS!</div>
+  return <div>Hello NextJS!!</div>
 }
