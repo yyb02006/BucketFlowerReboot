@@ -33,3 +33,7 @@ next-env.d.ts
 
 # gitmessage
 .gitmessage.txt
+
+# .db
+*.db
+*.db-journal
