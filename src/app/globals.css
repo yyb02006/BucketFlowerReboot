@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 html {
-  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eaeaea;
+}
+body {
+  overflow-x: hidden;
 }
